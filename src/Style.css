@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg); */
+    background-size: cover;
+    background-image: url("ob2.jpg");
+
+    height: 90vh;
+    text-align: center;
+    padding-top: 70px;
+    border:2px solid rgb(159, 199, 64);
+}
+h1{
+    text-shadow: 3px 3px 5px goldenrod;
+
+}
+/* form{
+    border:1px solid rgb(17, 11, 77);
+    background-color: rgb(37, 84, 87);
+    width:450px;
+    margin-left: 530px;
+    margin-top: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+} */
+label{
+    line-height: 60px;
+    font-size:x-large;
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    outline: none;
+    outline-offset: none;
+    border: none;
+    border: 1px solid black;
+
+    font-size: x-large;
+    width: 250px;
+    background-color: rgba(161, 214, 210, 0.999);
+}
+label[for = "department"]{
+    position: relative;
+    right: 20px;
+}
+#department{
+    position: relative;
+    right: 20px;
+}
+button{
+    border: 20px solid transparent;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: rgba(187, 89, 50, 0.999);;
+    box-shadow: 3px 3px maroon;
+
+}
+button:hover{
+    background-color: rgba(79, 131, 145, 0.999);;
+}
+
+.feedback{
+    /* background-image:linear-gradient(315deg, transparent 75%, #d45d55 0); */
+    background-color:cadetblue;
+    background-size:100%;
+}
+
+#heading{
+    text-align: center;
+    padding-top:40px;
+}
+
+#feedsys{
+    border:1px solid transparent;
+    background-color: antiquewhite;
+    width:800px;
+    text-align: center;
+    margin: 50px 50px 50px 330px;
+    padding: 25px;
+    border: 3px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+#details{
+    border:1px solid transparent;
+    background-color: rgb(152, 190, 190);
+    color:rgb(112, 30, 30);
+    font-size: xx-large;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+}
+
+#backbut{
+    height: 70px;
+    width: 150px;
+    background-color:#bec03a;
+    border: #989e7d;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(35, 33, 199);
+    font-family: 'Roboto', sans-serif; 
+    margin-left: 700px;
+}
